@@ -7,6 +7,7 @@ public class Order {
     public Order(double totalPrice, int loyaltyPointsEarned) {
         this.totalPrice = totalPrice;
         this.loyaltyPoints = loyaltyPointsEarned;
+
     }
 
     public double getTotalPrice() {
